@@ -12,7 +12,8 @@ Landing page kedai kopi fiktif "Kopi Senja", dibuat untuk tugas **Slicing Websit
 ots/desktop.png)
 
 ### Tablet
-![Tampilan tablet](screenshots/tablet.png<img width="820" height="2608" alt="tablet" src="https://github.com/user-attachments/assets/fd2908fc-1c99-4aba-8a5d-670da2ced838" />
+![Tampilan tablet](screenshots/tablet.png<img <img width="820" height="2608" alt="tablet" src="https://github.com/user-attachments/assets/3c471e9f-b36f-4944-9054-2ee00b2a5561" />
+ />
 )
 
 ### Mobile
