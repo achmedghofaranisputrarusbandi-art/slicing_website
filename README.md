@@ -2,9 +2,6 @@
 
 Landing page kedai kopi fiktif "Kopi Senja", dibuat untuk tugas **Slicing Website** menggunakan HTML, CSS, dan JavaScript (DOM) tanpa framework.
 
-🔗 **Demo:** (isi link Netlify / GitHub Pages / Vercel di sini)
-
-## 📸 Screenshot
 
 ## 📸 Screenshot
 
