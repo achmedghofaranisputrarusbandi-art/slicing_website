@@ -7,19 +7,15 @@ Landing page kedai kopi fiktif "Kopi Senja", dibuat untuk tugas **Slicing Websit
 ## 📸 Screenshot
 
 ### Desktop
-![Tampilan desktop](screensh<img width="820" height="2608" alt="tablet" src="https://github.com/user-attachments/assets/de142ec5-c5dd-4024-96c1-402ed1ed7d81" />
-<img width="1366" height="2571" alt="desktop" src="https://github.com/user-attachments/assets/e5e0b94c-d455-4daf-add6-e820fc8b2090" />
-ots/desktop.png)
+![Tampilan desktop](screenshots/tablet.png<img <img <img width="1366" height="2571" alt="desktop" src="https://github.com/user-attachments/assets/f6e0fcd9-9ee6-4334-8abe-5f4ba9bb94da" />
 
 ### Tablet
-![Tampilan tablet](screenshots/tablet.png<img <img width="820" height="2608" alt="tablet" src="https://github.com/user-attachments/assets/3c471e9f-b36f-4944-9054-2ee00b2a5561" />
- />
-)
+![Tampilan tablet](screenshots/tablet.png<img <img
+
 
 ### Mobile
 ![Tampilan mobile](screenshots/mobile.png![Uploading tablet.png…]()
-<img width="390" height="3659" alt="mobile" src="https://github.com/user-attachments/assets/10221353-76b7-4d75-94b1-439f6c4bba2b" />
-)
+<img 
 
 ## 📝 Penjelasan Singkat
 
