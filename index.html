@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kopi Senja - Kedai Kopi Lokal</title>
+  <meta name="description" content="Landing page Kopi Senja, tugas slicing HTML/CSS/JS">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="logo">Kopi Senja</a>
+    <nav id="menu" aria-label="Navigasi utama">
+      <a href="#menu-kopi">Menu</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <button id="themeBtn" class="icon-btn" aria-label="Ganti tema">🌙</button>
+    <button id="burger" class="icon-btn burger" aria-label="Buka menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>Kopi yang enak<br>tidak perlu buru-buru.</h1>
+      <p>Biji pilihan dari Gayo, Toraja, dan Flores. Disangrai tiap pagi, diseduh saat kamu datang.</p>
+      <a href="#menu-kopi" class="btn">Lihat menu</a>
+    </section>
+
+    <section id="menu-kopi" class="section">
+      <h2>Menu hari ini</h2>
+      <div class="filters" role="group" aria-label="Filter menu">
+        <button class="chip active" data-filter="all">Semua</button>
+        <button class="chip" data-filter="kopi">Kopi</button>
+        <button class="chip" data-filter="non-kopi">Non-kopi</button>
+        <button class="chip" data-filter="snack">Camilan</button>
+      </div>
+      <div class="grid" id="grid"></div>
+      <aside class="cart" aria-live="polite">
+        <strong>Pesananmu: <span id="count">0</span> item</strong>
+        <span>Total Rp <span id="total">0</span></span>
+        <button class="btn small" id="reset">Kosongkan</button>
+      </aside>
+    </section>
+
+    <section id="tentang" class="section about">
+      <h2>Tentang kami</h2>
+      <p>Kopi Senja dibuka tahun 2024 di sudut Cikarang. Kami bekerja langsung dengan petani agar harga biji adil dan rasa konsisten. Tempatnya nyaman untuk mengerjakan tugas, rapat kecil, atau sekadar menunggu hujan reda.</p>
+    </section>
+
+    <section id="kontak" class="section">
+      <h2>Reservasi meja</h2>
+      <form id="form" novalidate>
+        <label>Nama <input id="nama" type="text" autocomplete="name"></label>
+        <label>Email <input id="email" type="email" autocomplete="email"></label>
+        <label>Jumlah orang <input id="orang" type="number" min="1" max="12" value="2"></label>
+        <button class="btn" type="submit">Kirim reservasi</button>
+        <p id="msg" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>© 2026 Kopi Senja. Dibuat untuk tugas slicing website.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
